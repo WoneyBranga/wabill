@@ -1,54 +1,53 @@
 # Wabill
 
-Kirim pesan WhatsApp unik ke banyak nomor sekaligus.
+Envie mensagens exclusivas do WhatsApp para vários números de uma só vez.
 
-Klik [link ini](https://youtu.be/iQz-v9CCngE) untuk melihat video panduan instalasi dan penggunaan.
+Clique [neste link](https://youtu.be/iQz-v9CCngE) para ver o vídeo do guia de instalação e uso.
 
-![screenshot app](client/assets/ss-app.png)
+![aplicativo de captura de tela](client/assets/ss-app.png)
 
-## Quickstart guide
-1. Download dari Github
-2. Jalankan aplikasinya
-3. Buka halaman server
-4. Scan kode QR
-5. Buat data di Sheets/Excel
-6. Buka halaman Client
-7. Copy paste data tadi
-8. Buat template
-9. Klik preview
-10. Kirim!
+## Guia rápido
+1. Baixe do Github
+2. Execute o aplicativo
+3. Abra a página do servidor
+4. Digitalize o código QR
+5. Crie dados no Planilhas/Excel
+6. Abra a página do cliente
+7. Copie e cole os dados anteriormente
+8. Crie modelos
+9. Clique em visualizar
+10. Envie!
 
-## Cara penggunaan
-1. Jalankan server aplikasinya, ada dua cara untuk menjalankan aplikasi ini, menggunakan executable atau clone repo ini dan jalankan dengan `node index.js`.
-Untuk menjalankan dengan executable, download aplikasi ini di bagian Release di samping kanan, sesuaikan dengan sistem operasi anda. Setelah itu klik dua kali (untuk windows), dan akan terbuka command prompt. Disitu akan keluar url, buka url tersebut di browser anda (saya pakai google chrome). Lalu scan kode qr nya, setelah aktif, buka halaman client di `url/client` contohnya `http://localhost:8000/client`.
-2. Buat data di Google Sheet/Microsoft Excel
+## Como usar
+1. Execute o servidor de aplicativos, existem duas maneiras de executar este aplicativo, use este executável ou clone repo e execute-o com `node index.js`.
+Para rodar com o executável, baixe este aplicativo na seção Release à direita, de acordo com seu sistema operacional. Depois disso, clique duas vezes (para Windows) e um prompt de comando será aberto. Aí vai sair a url, abra a url no seu navegador (eu uso o google chrome). Então escaneie o código qr, uma vez ativo, abra a página do cliente em `url/client` por exemplo `http://localhost:8000/client`.
+2. Crie dados no Google Sheet/Microsoft Excel
 
-![contoh data excell](client/assets/ss1.png)
+![exemplo de dados do excel](client/assets/ss1.png)
 
-3. Salin dan tempel data, **Pastikan baris pertama adalah judul kolomnya, dan kolom pertama adalah nomor WhatsApp penerima (dengan format 62xxxxxxxx).**
+3. Copie e cole os dados, **Certifique-se de que a primeira linha seja o cabeçalho da coluna e a primeira coluna seja o número do WhatsApp do destinatário (com o formato 62xxxxxxxx).**
 
-![baris dan kolom pertama](client/assets/ss2.png)
+![primeira linha e coluna](client/assets/ss2.png)
 
-4. Buat template, bungkus judul kolom dengan simbol **{}**, contoh template (sesuai data diatas):
->Pelanggan Yth,
+4. Crie um modelo, envolva os títulos das colunas com símbolos **{}**, um modelo de exemplo (de acordo com os dados acima):
+>Prezado Cliente,
 
->Bersama ini kami informasikan tagihan Wabill Anda {nomor} atas nama {nama}, bln tagihan 08-2021 sebesar {tagihan} akan jatuh tempo pada tanggal 05-09-2021.
+>Informamos você sobre sua conta Wabill {number} em nome de {name}, o mês de cobrança 08-2021 no valor de {billing} será devido em 09-05-2021.
 
->Mohon segera lakukan pembayaran agar Wabill Anda tdk terisolir.
+>Faça um pagamento imediatamente para que seu Wabill não fique isolado.
 
->Abaikan notifikasi ini jika sudah melakukan pembayaran.
+>Ignore esta notificação se você já fez um pagamento.
 
->Terima kasih
-5. Cek preview terlebih dahulu
-6. Kirim!
+>obrigado
+5. Verifique a visualização primeiro
+6. Envie!
 
-## Update
-Aplikasi ini menggunakan libarary Baileys, yang bisa jadi di kemudian hari membutuhkan update. Anda bisa mendukung aplikasi ini dengan berdonasi melalui:
-[Trakteer.id](https://trakteer.id/afarhansib) atau [Saweria](https://saweria.co/afarhansib) atau hubungi whatsapp saya di [wa.me/6281233745324](https://wa.me/6281233745324)
+## Atualizações
+Este aplicativo usa a biblioteca Baileys, que pode exigir atualização posterior. Você pode apoiar este aplicativo doando via:
+[Trakteer.id](https://trakteer.id/afarhansib) ou [Saweria](https://saweria.co/afarhansib) ou entre em contato pelo meu whatsapp em [wa.me/6281233745324](https://wa. eu/6281233745324)
 
-Dukungan anda akan sangat berarti bagi saya dan kelanjutan aplikasi ini :) 
+Seu apoio significará muito para mim e para a continuação deste aplicativo :)
 
-**Aplikasi/tool ini gratis. mohon tidak diperjualbelikan!**
+**Este aplicativo/ferramenta é gratuito. por favor, não está à venda! **
 
-**Saya tidak mencatat/mengumpulkan data dari aplikasi ini.**
-
+**Não gravo/coleto dados deste aplicativo.**
