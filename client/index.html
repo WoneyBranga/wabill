@@ -35,7 +35,7 @@
 					</div>
 					<div class="footer">
 						<div></div>
-						<button id="send" onclick="sendMessages()">kirim</button>
+						<button id="send" onclick="sendMessages()">Enviar</button>
 					</div>
 				</div>
 			</div>
@@ -53,31 +53,33 @@
 						</div>
 						<div class="pull-tab"></div>
 						<textarea id="data" autofocus
-							placeholder="Cole seus dados do Excel/Google Sheets aqui. Certifique-se de que a primeira linha seja o nome da coluna. Certifique-se de que a primeira coluna seja o número do whatsapp do destino."></ área de texto>
-							</div>
-						<div class="footer">
-							<button id="format" onclick="formatData()">format</button>
-							<button id="save-template" class="outline" onclick="toast('salvar recurso ainda não disponível')">salvar</button>
-							<button class="outline" id="reset" onclick="resetData()">reset</button>
-							<button class="outline" id="edit" onclick="editData()">edit</button>
-						</div>
+							placeholder="Cole seus dados do Excel/Google Sheets aqui. Certifique-se de que a primeira linha seja o nome da coluna. Certifique-se de que a primeira coluna seja o número do whatsapp do destino.">
+							</textarea>
+					</div>
+					<div class="footer">
+						<button id="format" onclick="formatData()">format</button>
+						<button id="save-template" class="outline"
+							onclick="toast('salvar recurso ainda não disponível')">save</button>
+						<button class="outline" id="reset" onclick="resetData()">reset</button>
+						<button class="outline" id="edit" onclick="editData()">edit</button>
 					</div>
 				</div>
-				<div class="progress-area-wrapper">
-					<div class="card progress-area">
-						<div class="title">Progress</div>
-						<div class="body">
-							<h3>2/6</h3>
-							<p class="loading-dots">Sending</p>
-						</div>
+			</div>
+			<div class="progress-area-wrapper">
+				<div class="card progress-area">
+					<div class="title">Progress</div>
+					<div class="body">
+						<h3>2/6</h3>
+						<p class="loading-dots">Sending</p>
 					</div>
 				</div>
-				<div class="template-area-wrapper">
-					<div class="card template-area">
-						<div class="title">Template</div>
-						<div class="body">
-							<div class="pull-tab"></div>
-							<textarea id="template" placeholder="Digite seu modelo de mensagem aqui"></textarea>
+			</div>
+			<div class="template-area-wrapper">
+				<div class="card template-area">
+					<div class="title">Template</div>
+					<div class="body">
+						<div class="pull-tab"></div>
+						<textarea id="template" placeholder="Digite seu modelo de mensagem aqui"></textarea>
 					</div>
 					<div class="footer">
 						<div></div>
